@@ -1,0 +1,54 @@
+h2 {
+  color: #1b065e;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+section {
+  display: flex;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+article {
+  flex: 2;
+}
+
+.row {
+  display: flex;
+  gap: 5vw;
+  flex-direction: row;
+}
+
+.column {
+  background-color: yellow;
+}
+
+.paragraph-container p {
+  display: block;
+  margin-right: 55%;
+  margin-bottom: 5vh;
+  width: 50vw;
+}
+
+img {
+  display: inline;
+  width: 30vw;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.description {
+  width: 30vw;
+  font-size: 14px;
+  font-weight: 300;
+}

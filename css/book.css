@@ -1,0 +1,78 @@
+h2 {
+  color: #1b065e;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 1vw;
+  gap: 19vw;
+}
+
+input {
+  margin-left: 2vw;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1rem;
+  color: #1b065e;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  border-color: #1b065e;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+label {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 700;
+  color: #1b065e;
+  margin-left: 1.5vw;
+}
+
+.checkbox-container {
+  margin-top: 1vw;
+}
+
+.checkbox-label {
+  margin-left: 0;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 0.7vw;
+}
+
+button {
+  background-color: #f0c808;
+  border: none;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: auto;
+  color: #1b065e;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #1b065e;
+  color: white;
+}
